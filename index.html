@@ -9,369 +9,380 @@
 </head>
 <body>
     <header>
-        <!-- News Marquee -->
-        <div class="news-marquee">
-            <div class="marquee-content">
-                <span>📣 New success story: "From Empty Nester to Tech Entrepreneur" now available!</span>
-                <span>🎉 Join our virtual workshop "Financial Freedom After 50" - Register Today!</span>
-                <span>🌟 Featured this week: Interview with bestselling author Maria Rodriguez</span>
-                <span>💪 New video series on "Reinventing Your Career" launches this Friday</span>
-                <span>📚 Just released: "The Second Act Workbook" now available in our shop</span>
+        <header>
+            <!-- News Marquee -->
+            <div class="news-marquee">
+                <div class="marquee-content">
+                    <span>📣 New success story: "From Empty Nester to Tech Entrepreneur" now available!</span>
+                    <span>🎉 Join our virtual workshop "Financial Freedom After 50" - Register Today!</span>
+                    <span>🌟 Featured this week: Interview with bestselling author Maria Rodriguez</span>
+                    <span>💪 New video series on "Reinventing Your Career" launches this Friday</span>
+                    <span>📚 Just released: "The Second Act Workbook" now available in our shop</span>
+                </div>
             </div>
-        </div>
-        <div class="header-content">
-            <div class="logo">Second<span>Act</span>Success</div>
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Success Stories</a></li>
-                    <li><a href="#">Videos</a></li>
-                    <li><a href="#">Shop</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-            <div class="user-actions">
-                <a href="#" class="login-btn">Log In</a>
-                <a href="#" class="signup-btn">Sign Up</a>
+            <div class="header-content">
+                <div class="logo">Second<span>Act</span>Success</div>
+                
+                <div class="hamburger-menu">
+                    <div class="hamburger-icon" id="hamburger-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                
+                <nav id="nav-menu">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Success Stories</a></li>
+                        <li><a href="#">Videos</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                    <div class="user-actions">
+                        <a href="#" class="login-btn" id="loginButton">Log In</a>
+                        <a href="#" class="signup-btn" id="signupButton">Sign Up</a>
+                        <a href="#" class="logout-btn" id="logoutButton" style="display: none;">Log Out</a>
+                    </div>
+                </nav>
             </div>
-        </div>
-    </header>
-    
-    <div class="container">
-        <main>
-            <!-- Hero Section -->
-            <section class="hero">
-                <h1>Embracing Success After 50</h1>
-                <p>Inspiring stories, practical advice, and empowering resources for women discovering their second act of success, fulfillment, and joy.</p>
-                <a href="#" class="cta-button">Start Your Journey</a>
-            </section>
-            
-            <!-- Featured Stories Section -->
-            <section class="featured-stories-section">
-                <h2 class="section-title">Featured Success Stories</h2>
-                <div class="featured-stories">
-                    <div class="story-card">
-                        <div class="story-image">
-                            <img src="/api/placeholder/300/200" alt="Success Story">
-                            <span class="story-category">Career Change</span>
-                        </div>
-                        <div class="story-content">
-                            <div class="story-date">May 1, 2025</div>
-                            <h3 class="story-title">From Corporate Executive to Artisan Entrepreneur</h3>
-                            <p class="story-excerpt">After 30 years in corporate America, Janet found her true calling in handcrafted jewelry design, building a six-figure business within two years.</p>
-                            <a href="#" class="read-more">Read More →</a>
-                        </div>
-                    </div>
-                    
-                    <div class="story-card">
-                        <div class="story-image">
-                            <img src="/api/placeholder/300/200" alt="Success Story">
-                            <span class="story-category">Health & Wellness</span>
-                        </div>
-                        <div class="story-content">
-                            <div class="story-date">April 28, 2025</div>
-                            <h3 class="story-title">Marathon Runner at 62: Gloria's Inspiring Journey</h3>
-                            <p class="story-excerpt">After recovering from a health scare, Gloria committed to transforming her lifestyle and completed her first marathon at 62.</p>
-                            <a href="#" class="read-more">Read More →</a>
-                        </div>
-                    </div>
-                    
-                    <div class="story-card">
-                        <div class="story-image">
-                            <img src="/api/placeholder/300/200" alt="Success Story">
-                            <span class="story-category">Education</span>
-                        </div>
-                        <div class="story-content">
-                            <div class="story-date">April 25, 2025</div>
-                            <h3 class="story-title">Never Too Late: Earning a PhD at 58</h3>
-                            <p class="story-excerpt">After raising three children and supporting her husband's career, Maria pursued her lifelong dream of earning a doctorate in psychology.</p>
-                            <a href="#" class="read-more">Read More →</a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            
-            <!-- Video Gallery Section -->
-            <section class="video-gallery">
-                <h2 class="section-title">Inspiring Videos</h2>
-                <div class="video-grid">
-                    <div class="video-card">
-                        <div class="video-thumbnail">
-                            <img src="/api/placeholder/280/180" alt="Video Thumbnail">
-                            <div class="play-button">▶</div>
-                        </div>
-                        <div class="video-info">
-                            <h3 class="video-title">Finding Your Purpose After 50</h3>
-                            <p>Expert advice on discovering what truly matters in your second act of life.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="video-card">
-                        <div class="video-thumbnail">
-                            <img src="/api/placeholder/280/180" alt="Video Thumbnail">
-                            <div class="play-button">▶</div>
-                        </div>
-                        <div class="video-info">
-                            <h3 class="video-title">Interview: CEO Who Started at 55</h3>
-                            <p>Candid conversation with a woman who launched her tech company after 55.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="video-card">
-                        <div class="video-thumbnail">
-                            <img src="/api/placeholder/280/180" alt="Video Thumbnail">
-                            <div class="play-button">▶</div>
-                        </div>
-                        <div class="video-info">
-                            <h3 class="video-title">Reinvention Workshop</h3>
-                            <p>Practical tips for reinventing your life and career beyond 50.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="video-card">
-                        <div class="video-thumbnail">
-                            <img src="/api/placeholder/280/180" alt="Video Thumbnail">
-                            <div class="play-button">▶</div>
-                        </div>
-                        <div class="video-info">
-                            <h3 class="video-title">Financial Independence for Women</h3>
-                            <p>Strategies for building wealth and security in your later years.</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            
-            <!-- Shop Section -->
-            <section class="shop-section">
-                <h2 class="section-title">Shop Resources</h2>
-                <div class="shop-grid">
-                    <div class="product-card">
-                        <div class="product-image">
-                            <img src="/api/placeholder/250/200" alt="Product">
-                        </div>
-                        <div class="product-info">
-                            <h3 class="product-title">Success After 50 Planner</h3>
-                            <p class="product-price">$24.99</p>
-                            <p>A specialized planner designed to help women over 50 set and achieve meaningful goals.</p>
-                            <a href="#" class="shop-button">Shop on Etsy</a>
-                        </div>
-                    </div>
-                    
-                    <div class="product-card">
-                        <div class="product-image">
-                            <img src="/api/placeholder/250/200" alt="Product">
-                        </div>
-                        <div class="product-info">
-                            <h3 class="product-title">Reinvention Workbook (PDF)</h3>
-                            <p class="product-price">$18.99</p>
-                            <p>A printable workbook with exercises to help you discover your next chapter.</p>
-                            <a href="#" class="shop-button">Download</a>
-                        </div>
-                    </div>
-                    
-                    <div class="product-card">
-                        <div class="product-image">
-                            <img src="/api/placeholder/250/200" alt="Product">
-                        </div>
-                        <div class="product-info">
-                            <h3 class="product-title">Affirmation Cards</h3>
-                            <p class="product-price">$15.99</p>
-                            <p>52 beautifully designed affirmation cards specifically for women embracing their second act.</p>
-                            <a href="#" class="shop-button">Shop on Shopify</a>
-                        </div>
-                    </div>
-                    
-                    <div class="product-card">
-                        <div class="product-image">
-                            <img src="/api/placeholder/250/200" alt="Product">
-                        </div>
-                        <div class="product-info">
-                            <h3 class="product-title">Second Act Success Journal</h3>
-                            <p class="product-price">$22.99</p>
-                            <p>A guided journal designed to help women navigate and celebrate their journey after 50.</p>
-                            <a href="#" class="shop-button">Shop on Etsy</a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            
-             <!-- Newsletter Section -->
-             <section class="newsletter">
-                <h2>Join Our Community</h2>
-                <p>Subscribe to our newsletter and receive weekly inspiration, success stories, and practical resources to thrive in your second act.</p>
-                <form class="newsletter-form">
-                    <input type="email" class="newsletter-input" placeholder="Your email address">
-                    <button type="submit" class="newsletter-button">Subscribe</button>
-                </form>
-            </section>
-        </main>
+        </header>
         
-        <aside class="sidebar">
-            <h2 class="sidebar-title">Articles A-Z</h2>
-            <ul class="article-list">
-                <li class="article-list-item">
-                    <a href="#" class="article-link">Aging Gracefully: Beauty Tips for Women Over 50</a>
-                    <div class="article-date">April 30, 2025</div>
-                </li>
-                <li class="article-list-item">
-                    <a href="#" class="article-link">Building a Business After Retirement</a>
-                    <div class="article-date">April 27, 2025</div>
-                </li>
-                <li class="article-list-item">
-                    <a href="#" class="article-link">Career Transitions: Finding New Purpose</a>
-                    <div class="article-date">April 24, 2025</div>
-                </li>
-                <li class="article-list-item">
-                    <a href="#" class="article-link">Digital Skills Every Woman Over 50 Should Master</a>
-                    <div class="article-date">April 21, 2025</div>
-                </li>
-                <li class="article-list-item">
-                    <a href="#" class="article-link">Empty Nest: Reclaiming Your Identity</a>
-                    <div class="article-date">April 18, 2025</div>
-                </li>
-                <li class="article-list-item">
-                    <a href="#" class="article-link">Financial Planning for Your Second Act</a>
-                    <div class="article-date">April 15, 2025</div>
-                </li>
-                <li class="article-list-item">
-                    <a href="#" class="article-link">Grandparenting: Joys and Boundaries</a>
-                    <div class="article-date">April 12, 2025</div>
-                </li>
-            </ul>
+        <div class="container">
+            <main>
+                <!-- Hero Section -->
+                <section class="hero">
+                    <h1>Embracing Success After 50</h1>
+                    <p>Inspiring stories, practical advice, and empowering resources for women discovering their second act of success, fulfillment, and joy.</p>
+                    <a href="#" class="cta-button">Start Your Journey</a>
+                </section>
+                
+                <!-- Featured Stories Section -->
+                <section class="featured-stories-section">
+                    <h2 class="section-title">Featured Success Stories</h2>
+                    <div class="featured-stories">
+                        <div class="story-card">
+                            <div class="story-image">
+                                <img src="/api/placeholder/300/200" alt="Success Story">
+                                <span class="story-category">Career Change</span>
+                            </div>
+                            <div class="story-content">
+                                <div class="story-date">May 1, 2025</div>
+                                <h3 class="story-title">From Corporate Executive to Artisan Entrepreneur</h3>
+                                <p class="story-excerpt">After 30 years in corporate America, Janet found her true calling in handcrafted jewelry design, building a six-figure business within two years.</p>
+                                <a href="#" class="read-more">Read More →</a>
+                            </div>
+                        </div>
+                        
+                        <div class="story-card">
+                            <div class="story-image">
+                                <img src="/api/placeholder/300/200" alt="Success Story">
+                                <span class="story-category">Health & Wellness</span>
+                            </div>
+                            <div class="story-content">
+                                <div class="story-date">April 28, 2025</div>
+                                <h3 class="story-title">Marathon Runner at 62: Gloria's Inspiring Journey</h3>
+                                <p class="story-excerpt">After recovering from a health scare, Gloria committed to transforming her lifestyle and completed her first marathon at 62.</p>
+                                <a href="#" class="read-more">Read More →</a>
+                            </div>
+                        </div>
+                        
+                        <div class="story-card">
+                            <div class="story-image">
+                                <img src="/api/placeholder/300/200" alt="Success Story">
+                                <span class="story-category">Education</span>
+                            </div>
+                            <div class="story-content">
+                                <div class="story-date">April 25, 2025</div>
+                                <h3 class="story-title">Never Too Late: Earning a PhD at 58</h3>
+                                <p class="story-excerpt">After raising three children and supporting her husband's career, Maria pursued her lifelong dream of earning a doctorate in psychology.</p>
+                                <a href="#" class="read-more">Read More →</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Video Gallery Section -->
+                <section class="video-gallery">
+                    <h2 class="section-title">Inspiring Videos</h2>
+                    <div class="video-grid">
+                        <div class="video-card">
+                            <div class="video-thumbnail">
+                                <img src="/api/placeholder/280/180" alt="Video Thumbnail">
+                                <div class="play-button">▶</div>
+                            </div>
+                            <div class="video-info">
+                                <h3 class="video-title">Finding Your Purpose After 50</h3>
+                                <p>Expert advice on discovering what truly matters in your second act of life.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="video-card">
+                            <div class="video-thumbnail">
+                                <img src="/api/placeholder/280/180" alt="Video Thumbnail">
+                                <div class="play-button">▶</div>
+                            </div>
+                            <div class="video-info">
+                                <h3 class="video-title">Interview: CEO Who Started at 55</h3>
+                                <p>Candid conversation with a woman who launched her tech company after 55.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="video-card">
+                            <div class="video-thumbnail">
+                                <img src="/api/placeholder/280/180" alt="Video Thumbnail">
+                                <div class="play-button">▶</div>
+                            </div>
+                            <div class="video-info">
+                                <h3 class="video-title">Reinvention Workshop</h3>
+                                <p>Practical tips for reinventing your life and career beyond 50.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="video-card">
+                            <div class="video-thumbnail">
+                                <img src="/api/placeholder/280/180" alt="Video Thumbnail">
+                                <div class="play-button">▶</div>
+                            </div>
+                            <div class="video-info">
+                                <h3 class="video-title">Financial Independence for Women</h3>
+                                <p>Strategies for building wealth and security in your later years.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Shop Section -->
+                <section class="shop-section">
+                    <h2 class="section-title">Shop Resources</h2>
+                    <div class="shop-grid">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="/api/placeholder/250/200" alt="Product">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-title">Success After 50 Planner</h3>
+                                <p class="product-price">$24.99</p>
+                                <p>A specialized planner designed to help women over 50 set and achieve meaningful goals.</p>
+                                <a href="#" class="shop-button">Shop on Etsy</a>
+                            </div>
+                        </div>
+                        
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="/api/placeholder/250/200" alt="Product">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-title">Reinvention Workbook (PDF)</h3>
+                                <p class="product-price">$18.99</p>
+                                <p>A printable workbook with exercises to help you discover your next chapter.</p>
+                                <a href="#" class="shop-button">Download</a>
+                            </div>
+                        </div>
+                        
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="/api/placeholder/250/200" alt="Product">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-title">Affirmation Cards</h3>
+                                <p class="product-price">$15.99</p>
+                                <p>52 beautifully designed affirmation cards specifically for women embracing their second act.</p>
+                                <a href="#" class="shop-button">Shop on Shopify</a>
+                            </div>
+                        </div>
+                        
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="/api/placeholder/250/200" alt="Product">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-title">Second Act Success Journal</h3>
+                                <p class="product-price">$22.99</p>
+                                <p>A guided journal designed to help women navigate and celebrate their journey after 50.</p>
+                                <a href="#" class="shop-button">Shop on Etsy</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Newsletter Section -->
+                <section class="newsletter">
+                    <h2>Join Our Community</h2>
+                    <p>Subscribe to our newsletter and receive weekly inspiration, success stories, and practical resources to thrive in your second act.</p>
+                    <form class="newsletter-form">
+                        <input type="email" class="newsletter-input" placeholder="Your email address">
+                        <button type="submit" class="newsletter-button">Subscribe</button>
+                    </form>
+                </section>
+            </main>
             
-            <div class="categories">
-                <h2 class="sidebar-title">Categories</h2>
-                <ul class="category-list">
-                    <li class="category-item">
-                        <a href="#" class="category-link">
-                            Career Transitions
-                            <span class="category-count">24</span>
-                        </a>
+            <aside class="sidebar">
+                <h2 class="sidebar-title">Articles A-Z</h2>
+                <ul class="article-list">
+                    <li class="article-list-item">
+                        <a href="#" class="article-link">Aging Gracefully: Beauty Tips for Women Over 50</a>
+                        <div class="article-date">April 30, 2025</div>
                     </li>
-                    <li class="category-item">
-                        <a href="#" class="category-link">
-                            Health & Wellness
-                            <span class="category-count">19</span>
-                        </a>
+                    <li class="article-list-item">
+                        <a href="#" class="article-link">Building a Business After Retirement</a>
+                        <div class="article-date">April 27, 2025</div>
                     </li>
-                    <li class="category-item">
-                        <a href="#" class="category-link">
-                            Financial Independence
-                            <span class="category-count">15</span>
-                        </a>
+                    <li class="article-list-item">
+                        <a href="#" class="article-link">Career Transitions: Finding New Purpose</a>
+                        <div class="article-date">April 24, 2025</div>
                     </li>
-                    <li class="category-item">
-                        <a href="#" class="category-link">
-                            Entrepreneurship
-                            <span class="category-count">12</span>
-                        </a>
+                    <li class="article-list-item">
+                        <a href="#" class="article-link">Digital Skills Every Woman Over 50 Should Master</a>
+                        <div class="article-date">April 21, 2025</div>
                     </li>
-                    <li class="category-item">
-                        <a href="#" class="category-link">
-                            Relationships
-                            <span class="category-count">10</span>
-                        </a>
+                    <li class="article-list-item">
+                        <a href="#" class="article-link">Empty Nest: Reclaiming Your Identity</a>
+                        <div class="article-date">April 18, 2025</div>
                     </li>
-                    <li class="category-item">
-                        <a href="#" class="category-link">
-                            Personal Growth
-                            <span class="category-count">8</span>
-                        </a>
+                    <li class="article-list-item">
+                        <a href="#" class="article-link">Financial Planning for Your Second Act</a>
+                        <div class="article-date">April 15, 2025</div>
+                    </li>
+                    <li class="article-list-item">
+                        <a href="#" class="article-link">Grandparenting: Joys and Boundaries</a>
+                        <div class="article-date">April 12, 2025</div>
                     </li>
                 </ul>
-            </div>
-        </aside>
-    </div>
-    
-    <footer>
-        <div class="footer-content">
-            <div class="footer-column">
-                <h3>About</h3>
-                <p>Second Act Success is dedicated to empowering women over 50 to embrace new opportunities, discover their potential, and live their most fulfilling lives.</p>
-            </div>
-            
-            <div class="footer-column">
-                <h3>Quick Links</h3>
-                <ul class="footer-links">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Success Stories</a></li>
-                    <li><a href="#">Videos</a></li>
-                    <li><a href="#">Shop</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
-            
-            <div class="footer-column">
-                <h3>Follow Us</h3>
-                <p>Join our community on social media for daily inspiration and updates.</p>
-                <div class="social-icons">
-                    <a href="#" class="social-icon">FB</a>
-                    <a href="#" class="social-icon">IG</a>
-                    <a href="#" class="social-icon">PT</a>
-                    <a href="#" class="social-icon">YT</a>
+                
+                <div class="categories">
+                    <h2 class="sidebar-title">Categories</h2>
+                    <ul class="category-list">
+                        <li class="category-item">
+                            <a href="#" class="category-link">
+                                Career Transitions
+                                <span class="category-count">24</span>
+                            </a>
+                        </li>
+                        <li class="category-item">
+                            <a href="#" class="category-link">
+                                Health & Wellness
+                                <span class="category-count">19</span>
+                            </a>
+                        </li>
+                        <li class="category-item">
+                            <a href="#" class="category-link">
+                                Financial Independence
+                                <span class="category-count">15</span>
+                            </a>
+                        </li>
+                        <li class="category-item">
+                            <a href="#" class="category-link">
+                                Entrepreneurship
+                                <span class="category-count">12</span>
+                            </a>
+                        </li>
+                        <li class="category-item">
+                            <a href="#" class="category-link">
+                                Relationships
+                                <span class="category-count">10</span>
+                            </a>
+                        </li>
+                        <li class="category-item">
+                            <a href="#" class="category-link">
+                                Personal Growth
+                                <span class="category-count">8</span>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-            </div>
+            </aside>
         </div>
         
-        <div class="login-modal" id="loginModal">
-            <div class="modal-content">
-                <span class="close-modal">&times;</span>
-                <h2>Log In</h2>
-                <form class="login-form">
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" required>
+        <footer>
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>About</h3>
+                    <p>Second Act Success is dedicated to empowering women over 50 to embrace new opportunities, discover their potential, and live their most fulfilling lives.</p>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Success Stories</a></li>
+                        <li><a href="#">Videos</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Follow Us</h3>
+                    <p>Join our community on social media for daily inspiration and updates.</p>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon">FB</a>
+                        <a href="#" class="social-icon">IG</a>
+                        <a href="#" class="social-icon">PT</a>
+                        <a href="#" class="social-icon">YT</a>
                     </div>
-                    <div class="form-group">
-                        <label for="password">Password</label>
-                        <input type="password" id="password" required>
-                    </div>
-                    <div class="form-group remember-forgot">
-                        <div>
-                            <input type="checkbox" id="remember">
-                            <label for="remember">Remember me</label>
+                </div>
+            </div>
+            
+            <div class="login-modal" id="loginModal">
+                <div class="modal-content">
+                    <span class="close-modal">&times;</span>
+                    <h2>Log In</h2>
+                    <form class="login-form">
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" required>
                         </div>
-                        <a href="#" class="forgot-password">Forgot Password?</a>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" required>
+                        </div>
+                        <div class="form-group remember-forgot">
+                            <div>
+                                <input type="checkbox" id="remember">
+                                <label for="remember">Remember me</label>
+                            </div>
+                            <a href="#" class="forgot-password">Forgot Password?</a>
+                        </div>
+                        <button type="submit" class="submit-btn">Log In</button>
+                    </form>
+                    <div class="modal-footer">
+                        <p>Don't have an account? <a href="#" id="switchToSignup">Sign Up</a></p>
                     </div>
-                    <button type="submit" class="submit-btn">Log In</button>
-                </form>
-                <div class="modal-footer">
-                    <p>Don't have an account? <a href="#" id="switchToSignup">Sign Up</a></p>
                 </div>
             </div>
-        </div>
-        
-        <div class="login-modal" id="signupModal">
-            <div class="modal-content">
-                <span class="close-modal">&times;</span>
-                <h2>Create Account</h2>
-                <form class="login-form">
-                    <div class="form-group">
-                        <label for="fullname">Full Name</label>
-                        <input type="text" id="fullname" required>
+            
+            <div class="login-modal" id="signupModal">
+                <div class="modal-content">
+                    <span class="close-modal">&times;</span>
+                    <h2>Create Account</h2>
+                    <form class="login-form">
+                        <div class="form-group">
+                            <label for="fullname">Full Name</label>
+                            <input type="text" id="fullname" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="signup-email">Email</label>
+                            <input type="email" id="signup-email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="signup-password">Password</label>
+                            <input type="password" id="signup-password" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="confirm-password">Confirm Password</label>
+                            <input type="password" id="confirm-password" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="checkbox" id="terms">
+                            <label for="terms">I agree to the <a href="#">Terms & Conditions</a></label>
+                        </div>
+                        <button type="submit" class="submit-btn">Create Account</button>
+                    </form>
+                    <div class="modal-footer">
+                        <p>Already have an account? <a href="#" id="switchToLogin">Log In</a></p>
                     </div>
-                    <div class="form-group">
-                        <label for="signup-email">Email</label>
-                        <input type="email" id="signup-email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="signup-password">Password</label>
-                        <input type="password" id="signup-password" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="confirm-password">Confirm Password</label>
-                        <input type="password" id="confirm-password" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="checkbox" id="terms">
-                        <label for="terms">I agree to the <a href="#">Terms & Conditions</a></label>
-                    </div>
-                    <button type="submit" class="submit-btn">Create Account</button>
-                </form>
-                <div class="modal-footer">
-                    <p>Already have an account? <a href="#" id="switchToLogin">Log In</a></p>
                 </div>
             </div>
-        </div>
