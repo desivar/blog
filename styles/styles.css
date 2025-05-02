@@ -1,8 +1,8 @@
 :root {
-    --primary: #f981a3;
-    --secondary: #ebb7ba;
-    --accent: #0f88ad;
-    --text: #045879;
+    --primary: #89B0AE;
+    --secondary: #FAF9F9;
+    --accent: #BEE3DB;
+    --text: #555B6E;
     --background: #FAF9F9;
 }
 
@@ -27,7 +27,7 @@ body {
 /* Header Styles */
 header {
     background-color: var(--primary);
-    color: white;
+    color: black;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -134,7 +134,7 @@ main {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(rgba(137, 176, 174, 0.8), rgba(137, 176, 174, 0.8)), url('/api/placeholder/1200/500');
+    background: linear-gradient(rgba(149, 204, 201, 0.8), rgba(57, 219, 210, 0.8)), url('/api/placeholder/1200/500');
     background-size: cover;
     background-position: center;
     color: white;
